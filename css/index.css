@@ -7283,11 +7283,26 @@ div#archive {
   
 }
 
+/* Twikoo 评论样式 end */
 
+/* 背景宇宙星光  */
+#universe{
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
+  z-index: -1;
+}
 
-
-
-
+/* 背景宇宙星光 end */
 
 
 
@@ -7410,7 +7425,7 @@ div#quit-board.fixedcomment {
     font-display : swap;
   }
   
-  .menu-container .menu-item, #site-name {
+  .menu-container .menu-item, #site-name, #page-name {
    font-family: 'Fruitshome', sans-serif;
   }
   
@@ -7436,6 +7451,7 @@ div#quit-board.fixedcomment {
   :root {
    --global-font-size:16px !important;
   }
+ 
 @charset "UTF-8";
  /* 滚动右边隧道css */
 
@@ -8310,22 +8326,6 @@ button#go-up:hover #percent {
 }
 .rightMenu-group.hide{
 	display: none;
-}
-/* 背景宇宙星光  */
-#universe{
-  display: block;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
-  z-index: -1;
 }
 .search-dialog {
   position: fixed;
