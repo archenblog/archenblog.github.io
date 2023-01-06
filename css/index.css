@@ -6482,32 +6482,7 @@ svg.social_icon {
   }
 /* social图标设置 end */
 
-/* 字体样式 */
-@font-face{
-    font-family:'Candyhome' ;  /* 字体名自定义即可 */
-    src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
-  
-  @font-face{
-    font-family:'ZhuZiAWanhome' ;  /* 字体名自定义即可 */
-    src:url('/fonts/ZhuZiAWan.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
-  
-  h1#site-title {
-    font-family: 'Candyhome', sans-serif;
-  }
-  
-  body {
-   font-family: 'ZhuZiAWanhome' !important;
-  }
-  
-  :root {
-   --global-font-size:16px !important;
-  }
 
-/* 字体样式 end */
 
 /* 全局默认鼠标指针 */
 body,html{
@@ -7383,6 +7358,83 @@ div#quit-board.fixedcomment {
 [data-theme="dark"]
   div#quit-board.fixedcomment {
     background: rgba(147, 146, 128, 0.3);
+  }
+/* 字体包 */
+
+@font-face{
+    font-family:'Candyhome' ;  /* 字体名自定义即可 */
+    src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+    font-display : swap;
+  }
+  
+  /* SAOUI字体精简包，仅73KB */
+  @font-face{
+    font-family: 'SAOUI';
+    src: url('https://npm.elemecdn.com/akilar-candyassets/fonts/SAOUI.ttf');
+    font-display: swap;
+  }
+  
+  @font-face{
+    font-family:'ZhuZiAWanhome' ;  /* 字体名自定义即可 */
+    src:url('/fonts/ZhuZiAWan.ttf'); /* 字体文件路径 */
+    font-display : swap;
+  }
+  
+  @font-face{
+    font-family:'Xing' ;  /* 字体名自定义即可 */
+    src:url('/fonts/xingkai.ttf'); /* 字体文件路径 */
+    font-display : swap;
+  }
+  
+  @font-face{
+    font-family:'Circlehome' ; 
+    src:url('/fonts/Circle.ttf'); 
+    font-display : swap;
+  }
+  
+  @font-face{
+    font-family:'flowerhome' ; 
+    src:url('/fonts/flower.ttf'); 
+    font-display : swap;
+  }
+  
+  @font-face{
+    font-family:'Fruitshome' ; 
+    src:url('/fonts/Fruits.ttf'); 
+    font-display : swap;
+  }
+  
+  @font-face{
+    font-family:'Romancehome' ; 
+    src:url('/fonts/Romance.ttf'); 
+    font-display : swap;
+  }
+  
+  .menu-container .menu-item, #site-name {
+   font-family: 'Fruitshome', sans-serif;
+  }
+  
+  h1#site-title,a.article-title, .post-title {
+   font-family: 'Candyhome', sans-serif;
+  }
+  .player_description b {
+   font-family: 'Xing', sans-serif;
+  }
+  #site-subtitle {
+   font-family: 'flowerhome', sans-serif;
+  }
+  
+  .card-friend-link-container, .aside-list {
+    font-family: 'Romancehome', sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+   font-family: 'ZhuZiAWanhome' !important;
+  }
+  
+  :root {
+   --global-font-size:16px !important;
   }
 @charset "UTF-8";
  /* 滚动右边隧道css */
